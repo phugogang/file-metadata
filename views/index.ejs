@@ -1,0 +1,29 @@
+<html>
+    <header>
+        <title></title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+        <style>
+        
+        </style>
+    
+    </header>
+
+    <body>
+        <div class='container content'>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <form action='/upload' method='POST' enctype="multipart/form-data" class="form-inline">
+                        <p class='lead'>Submit a file to view its filesize.</p>
+                        <div class="form-group">
+                            <input type='file' name='file' class="form-control">
+                        </div>
+                        <div class="form-group"> 
+                            <button type="submit" class="btn btn-primary">Submit</button>  
+                        </div>     
+                    </form>
+                </div>
+            </div>       
+        </div>
+    </body>
+</html>
