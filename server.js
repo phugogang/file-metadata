@@ -21,6 +21,6 @@ app.post('/upload', upload.single('file'), (req, res, next) => {
 });
 
 
-app.listen(process.env.PORT | 8000, ()=> {
-    console.log('App listening on ' + process.env.PORT | 8000);
+app.listen(process.env.PORT || 8000, ()=> {
+    console.log('App listening on ' + process.env.PORT || 8000);
 })
